@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="parallex website.css"> -->
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y:auto;
+    perspective: 10px;
+
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+}
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: translateZ(-40px) scale(5);
+}
+.foreground{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    transform: translateZ(-20px) scale(3);
+}
+h1{
+    position: absolute;
+    top: 180px;
+    left: 380px;
+    color: white;
+    font-size: 8rem;
+    text-shadow: 0 0 5px black;
+    z-index: 3;
+}
+section{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 5rem 0;
+    z-index: 7;
+    margin-left: 6px;
+}
+.secheading{
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+.text{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+.dec{
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-left: 560px;
+}
+.bg1{
+    position: relative;
+    background-image: url(sport-1.jpg);
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.bg2{
+    position: relative;
+    background-image: url(sport-2.jpg);
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.bg3{
+    position: relative;
+    background-image: url(sport-3.jpg);
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+</style>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="container">
+            <img  class="background" src="background.png" alt="a">
+            <img class="foreground" src="foreground.png" alt="b">
+            <h1 >ADVENTURE</h1>
+    </div>
+    <section>
+
+        <div>
+        <h2 class="secheading">Adventure time ! </h2>
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit et nam optio obcaecati in eos odit. Dicta quae, id cupiditate ad unde impedit aperiam quaerat, fugit, officia error ea et modi sunt minima? Amet, similique velit. Magni ratione aliquid amet recusandae, id quod exercitationem dolorum. Ipsam facilis rem excepturi, magni ea molestiae obcaecati adipisci assumenda distinctio perferendis quasi hic iure deserunt nostrum, voluptatum sint reprehenderit placeat repellendus corporis id repellat! Hic consequatur natus consequuntur dicta inventore officiis? Non fugit cupiditate dignissimos hic voluptate est provident aliquid quia repellat alias culpa ad amet, quaerat, possimus quae et commodi ullam exercitationem nobis!lorem10 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, eaque?
+        <br><br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate iure, deleniti ipsum necessitatibus repellat molestias voluptas eligendi quidem obcaecati atque officiis quo non pariatur magni. Quidem quia doloribus repellat similique voluptatem tempore dolor esse suscipit quibusdam maiores molestiae a voluptate minima odio sit ratione laboriosam voluptatibus commodi, veniam quis officia cumque? Impedit at nobis eaque quasi magnam facilis sequi delectus distinctio totam modi vitae, harum architecto recusandae nostrum necessitatibus sapiente, quia iste molestias est veniam amet repudiandae, ab consequuntur. Sit vero dolor quaerat suscipit tenetur quibusdam nostrum, inventore necessitatibus dolorem nam a minus voluptatibus optio maxime ab pariatur consequuntur at quo placeat corporis eaque veritatis officia! Quibusdam est iusto voluptatem!
+        </p>
+
+        <div class="bg bg1">
+        <h2 class="dec">Biking</h2>
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eos necessitatibus est perferendis fugit eveniet! Ab, illum. Facilis dolore earum iure voluptates dolorem odit veritatis illum eum necessitatibus. Iste. lorme90 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum quis soluta esse, ab nisi accusantium blanditiis odio maxime tempora totam enim voluptates iusto expedita, suscipit beatae impedit provident minus a incidunt culpa dolorem nemo corrupti. Facilis pariatur doloribus eligendi rerum fugit, ipsa voluptatem commodi, earum quaerat similique quos magnam molestiae consequuntur rem molestias itaque iusto, autem reiciendis? Rerum sunt enim eum deserunt cum eius architecto accusamus totam. Recusandae, ducimus iure. Nisi dolore non velit consequatur quis deserunt quae ad veritatis. 
+        <br><br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam obcaecati vero eum adipisci ipsum reprehenderit consectetur praesentium, aperiam numquam nobis placeat quae error distinctio pariatur ducimus, omnis est modi explicabo similique culpa. Accusamus ab suscipit molestias aspernatur iure cumque eum est commodi voluptatibus. Eveniet iusto esse veritatis ducimus maiores ad, quod incidunt vel rem tempora quam quia officiis accusamus, molestias repellendus assumenda voluptatibus cum velit voluptas ab omnis eos deserunt ipsam. Eligendi, dignissimos. Est officia suscipit, quis iste, cupiditate laboriosam tenetur accusamus ex incidunt voluptate, itaque placeat magni. Aut perferendis debitis suscipit commodi sed temporibus totam ab dolor culpa nisi, quo sit incidunt inventore maxime maiores magnam repudiandae, ipsam aspernatur?    
+        </p>
+
+        <div class="bg bg2"> 
+        <h2 class="dec">Para glyding </h2>
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit et nam optio obcaecati in eos odit. Dicta quae, id cupiditate ad unde impedit aperiam quaerat, fugit, officia error ea et modi sunt minima? Amet, similique velit. Magni ratione aliquid amet recusandae, id quod exercitationem dolorum. Ipsam facilis rem excepturi, magni ea molestiae obcaecati adipisci assumenda distinctio perferendis quasi hic iure deserunt nostrum, voluptatum sint reprehenderit placeat repellendus corporis id repellat! Hic consequatur natus consequuntur dicta inventore officiis? Non fugit cupiditate dignissimos hic voluptate est provident aliquid quia repellat alias culpa ad amet, quaerat, possimus quae et commodi ullam exercitationem nobis!lorem10 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, eaque?
+        <br><br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate iure, deleniti ipsum necessitatibus repellat molestias voluptas eligendi quidem obcaecati atque officiis quo non pariatur magni. Quidem quia doloribus repellat similique voluptatem tempore dolor esse suscipit quibusdam maiores molestiae a voluptate minima odio sit ratione laboriosam voluptatibus commodi, veniam quis officia cumque? Impedit at nobis eaque quasi magnam facilis sequi delectus distinctio totam modi vitae, harum architecto recusandae nostrum necessitatibus sapiente, quia iste molestias est veniam amet repudiandae, ab consequuntur. Sit vero dolor quaerat suscipit tenetur quibusdam nostrum, inventore necessitatibus dolorem nam a minus voluptatibus optio maxime ab pariatur consequuntur at quo placeat corporis eaque veritatis officia! Quibusdam est iusto voluptatem!
+        </p>
+
+        <div class="bg bg3">
+        <h2 class="dec">Surfacing</h2>
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eos necessitatibus est perferendis fugit eveniet! Ab, illum. Facilis dolore earum iure voluptates dolorem odit veritatis illum eum necessitatibus. Iste. lorme90 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum quis soluta esse, ab nisi accusantium blanditiis odio maxime tempora totam enim voluptates iusto expedita, suscipit beatae impedit provident minus a incidunt culpa dolorem nemo corrupti. Facilis pariatur doloribus eligendi rerum fugit, ipsa voluptatem commodi, earum quaerat similique quos magnam molestiae consequuntur rem molestias itaque iusto, autem reiciendis? Rerum sunt enim eum deserunt cum eius architecto accusamus totam. Recusandae, ducimus iure. Nisi dolore non velit consequatur quis deserunt quae ad veritatis. 
+        <br><br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam obcaecati vero eum adipisci ipsum reprehenderit consectetur praesentium, aperiam numquam nobis placeat quae error distinctio pariatur ducimus, omnis est modi explicabo similique culpa. Accusamus ab suscipit molestias aspernatur iure cumque eum est commodi voluptatibus. Eveniet iusto esse veritatis ducimus maiores ad, quod incidunt vel rem tempora quam quia officiis accusamus, molestias repellendus assumenda voluptatibus cum velit voluptas ab omnis eos deserunt ipsam. Eligendi, dignissimos. Est officia suscipit, quis iste, cupiditate laboriosam tenetur accusamus ex incidunt voluptate, itaque placeat magni. Aut perferendis debitis suscipit commodi sed temporibus totam ab dolor culpa nisi, quo sit incidunt inventore maxime maiores magnam repudiandae, ipsam aspernatur?    
+        </p>
+    </section>
+    </div>
+</body> 
+</html>
